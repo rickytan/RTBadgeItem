@@ -65,8 +65,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="r9w-Ea-GSB">
-                        <barButtonItem key="leftBarButtonItem" id="7HD-DT-zDg" customClass="RTBadgeItem"/>
-                        <barButtonItem key="rightBarButtonItem" id="u2c-mW-y7l" customClass="RTBadgeItem"/>
+                        <barButtonItem key="leftBarButtonItem" id="7HD-DT-zDg" customClass="RTBadgeItem">
+                            <connections>
+                                <action selector="badgeTapped:" destination="BYZ-38-t0r" id="66w-7d-35e"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="u2c-mW-y7l" customClass="RTBadgeItem">
+                            <connections>
+                                <action selector="badgeTapped:" destination="BYZ-38-t0r" id="uRx-Jv-AcZ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="leftItem" destination="7HD-DT-zDg" id="9nW-dt-dkh"/>
