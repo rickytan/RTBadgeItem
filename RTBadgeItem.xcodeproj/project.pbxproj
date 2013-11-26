@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8B3B871844ECD100C70EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8B3B861844ECD100C70EE7 /* Foundation.framework */; };
+		9C8B3B891844ECD100C70EE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8B3B881844ECD100C70EE7 /* CoreGraphics.framework */; };
+		9C8B3B8B1844ECD100C70EE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8B3B8A1844ECD100C70EE7 /* UIKit.framework */; };
+		9C8B3B911844ECD100C70EE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B3B8F1844ECD100C70EE7 /* InfoPlist.strings */; };
+		9C8B3B931844ECD100C70EE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B3B921844ECD100C70EE7 /* main.m */; };
+		9C8B3B971844ECD100C70EE7 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B3B961844ECD100C70EE7 /* RTAppDelegate.m */; };
+		9C8B3B9A1844ECD100C70EE7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B3B981844ECD100C70EE7 /* Main_iPhone.storyboard */; };
+		9C8B3B9D1844ECD100C70EE7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B3B9B1844ECD100C70EE7 /* Main_iPad.storyboard */; };
+		9C8B3BA01844ECD100C70EE7 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B3B9F1844ECD100C70EE7 /* RTViewController.m */; };
+		9C8B3BA21844ECD100C70EE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B3BA11844ECD100C70EE7 /* Images.xcassets */; };
+		9C8B3BA91844ECD100C70EE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8B3BA81844ECD100C70EE7 /* XCTest.framework */; };
+		9C8B3BAA1844ECD100C70EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8B3B861844ECD100C70EE7 /* Foundation.framework */; };
+		9C8B3BAB1844ECD100C70EE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8B3B8A1844ECD100C70EE7 /* UIKit.framework */; };
+		9C8B3BB31844ECD100C70EE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B3BB11844ECD100C70EE7 /* InfoPlist.strings */; };
+		9C8B3BB51844ECD100C70EE7 /* RTBadgeItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B3BB41844ECD100C70EE7 /* RTBadgeItemTests.m */; };
+		9C8B3BC11844ED3700C70EE7 /* RTBadgeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B3BC01844ED3700C70EE7 /* RTBadgeItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C8B3BAC1844ECD100C70EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8B3B7B1844ECD100C70EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8B3B821844ECD100C70EE7;
+			remoteInfo = RTBadgeItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C8B3B831844ECD100C70EE7 /* RTBadgeItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTBadgeItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8B3B861844ECD100C70EE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C8B3B881844ECD100C70EE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C8B3B8A1844ECD100C70EE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C8B3B8E1844ECD100C70EE7 /* RTBadgeItem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTBadgeItem-Info.plist"; sourceTree = "<group>"; };
+		9C8B3B901844ECD100C70EE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C8B3B921844ECD100C70EE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C8B3B941844ECD100C70EE7 /* RTBadgeItem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTBadgeItem-Prefix.pch"; sourceTree = "<group>"; };
+		9C8B3B951844ECD100C70EE7 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		9C8B3B961844ECD100C70EE7 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		9C8B3B991844ECD100C70EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9C8B3B9C1844ECD100C70EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9C8B3B9E1844ECD100C70EE7 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		9C8B3B9F1844ECD100C70EE7 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		9C8B3BA11844ECD100C70EE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C8B3BA71844ECD100C70EE7 /* RTBadgeItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTBadgeItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8B3BA81844ECD100C70EE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9C8B3BB01844ECD100C70EE7 /* RTBadgeItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTBadgeItemTests-Info.plist"; sourceTree = "<group>"; };
+		9C8B3BB21844ECD100C70EE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C8B3BB41844ECD100C70EE7 /* RTBadgeItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTBadgeItemTests.m; sourceTree = "<group>"; };
+		9C8B3BBF1844ED3700C70EE7 /* RTBadgeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBadgeItem.h; sourceTree = "<group>"; };
+		9C8B3BC01844ED3700C70EE7 /* RTBadgeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBadgeItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8B3B801844ECD100C70EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8B3B891844ECD100C70EE7 /* CoreGraphics.framework in Frameworks */,
+				9C8B3B8B1844ECD100C70EE7 /* UIKit.framework in Frameworks */,
+				9C8B3B871844ECD100C70EE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8B3BA41844ECD100C70EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8B3BA91844ECD100C70EE7 /* XCTest.framework in Frameworks */,
+				9C8B3BAB1844ECD100C70EE7 /* UIKit.framework in Frameworks */,
+				9C8B3BAA1844ECD100C70EE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8B3B7A1844ECD100C70EE7 = {
+			isa = PBXGroup;
+			children = (
+				9C8B3BBE1844ED0F00C70EE7 /* Classes */,
+				9C8B3B8C1844ECD100C70EE7 /* RTBadgeItem */,
+				9C8B3BAE1844ECD100C70EE7 /* RTBadgeItemTests */,
+				9C8B3B851844ECD100C70EE7 /* Frameworks */,
+				9C8B3B841844ECD100C70EE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8B3B841844ECD100C70EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B3B831844ECD100C70EE7 /* RTBadgeItem.app */,
+				9C8B3BA71844ECD100C70EE7 /* RTBadgeItemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8B3B851844ECD100C70EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B3B861844ECD100C70EE7 /* Foundation.framework */,
+				9C8B3B881844ECD100C70EE7 /* CoreGraphics.framework */,
+				9C8B3B8A1844ECD100C70EE7 /* UIKit.framework */,
+				9C8B3BA81844ECD100C70EE7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C8B3B8C1844ECD100C70EE7 /* RTBadgeItem */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B3B951844ECD100C70EE7 /* RTAppDelegate.h */,
+				9C8B3B961844ECD100C70EE7 /* RTAppDelegate.m */,
+				9C8B3B981844ECD100C70EE7 /* Main_iPhone.storyboard */,
+				9C8B3B9B1844ECD100C70EE7 /* Main_iPad.storyboard */,
+				9C8B3B9E1844ECD100C70EE7 /* RTViewController.h */,
+				9C8B3B9F1844ECD100C70EE7 /* RTViewController.m */,
+				9C8B3BA11844ECD100C70EE7 /* Images.xcassets */,
+				9C8B3B8D1844ECD100C70EE7 /* Supporting Files */,
+			);
+			path = RTBadgeItem;
+			sourceTree = "<group>";
+		};
+		9C8B3B8D1844ECD100C70EE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B3B8E1844ECD100C70EE7 /* RTBadgeItem-Info.plist */,
+				9C8B3B8F1844ECD100C70EE7 /* InfoPlist.strings */,
+				9C8B3B921844ECD100C70EE7 /* main.m */,
+				9C8B3B941844ECD100C70EE7 /* RTBadgeItem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C8B3BAE1844ECD100C70EE7 /* RTBadgeItemTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B3BB41844ECD100C70EE7 /* RTBadgeItemTests.m */,
+				9C8B3BAF1844ECD100C70EE7 /* Supporting Files */,
+			);
+			path = RTBadgeItemTests;
+			sourceTree = "<group>";
+		};
+		9C8B3BAF1844ECD100C70EE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B3BB01844ECD100C70EE7 /* RTBadgeItemTests-Info.plist */,
+				9C8B3BB11844ECD100C70EE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C8B3BBE1844ED0F00C70EE7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B3BBF1844ED3700C70EE7 /* RTBadgeItem.h */,
+				9C8B3BC01844ED3700C70EE7 /* RTBadgeItem.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C8B3B821844ECD100C70EE7 /* RTBadgeItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8B3BB81844ECD100C70EE7 /* Build configuration list for PBXNativeTarget "RTBadgeItem" */;
+			buildPhases = (
+				9C8B3B7F1844ECD100C70EE7 /* Sources */,
+				9C8B3B801844ECD100C70EE7 /* Frameworks */,
+				9C8B3B811844ECD100C70EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTBadgeItem;
+			productName = RTBadgeItem;
+			productReference = 9C8B3B831844ECD100C70EE7 /* RTBadgeItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C8B3BA61844ECD100C70EE7 /* RTBadgeItemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8B3BBB1844ECD100C70EE7 /* Build configuration list for PBXNativeTarget "RTBadgeItemTests" */;
+			buildPhases = (
+				9C8B3BA31844ECD100C70EE7 /* Sources */,
+				9C8B3BA41844ECD100C70EE7 /* Frameworks */,
+				9C8B3BA51844ECD100C70EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8B3BAD1844ECD100C70EE7 /* PBXTargetDependency */,
+			);
+			name = RTBadgeItemTests;
+			productName = RTBadgeItemTests;
+			productReference = 9C8B3BA71844ECD100C70EE7 /* RTBadgeItemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8B3B7B1844ECD100C70EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ricky;
+				TargetAttributes = {
+					9C8B3BA61844ECD100C70EE7 = {
+						TestTargetID = 9C8B3B821844ECD100C70EE7;
+					};
+				};
+			};
+			buildConfigurationList = 9C8B3B7E1844ECD100C70EE7 /* Build configuration list for PBXProject "RTBadgeItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C8B3B7A1844ECD100C70EE7;
+			productRefGroup = 9C8B3B841844ECD100C70EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C8B3B821844ECD100C70EE7 /* RTBadgeItem */,
+				9C8B3BA61844ECD100C70EE7 /* RTBadgeItemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8B3B811844ECD100C70EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8B3B9D1844ECD100C70EE7 /* Main_iPad.storyboard in Resources */,
+				9C8B3BA21844ECD100C70EE7 /* Images.xcassets in Resources */,
+				9C8B3B9A1844ECD100C70EE7 /* Main_iPhone.storyboard in Resources */,
+				9C8B3B911844ECD100C70EE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8B3BA51844ECD100C70EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8B3BB31844ECD100C70EE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C8B3B7F1844ECD100C70EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8B3BC11844ED3700C70EE7 /* RTBadgeItem.m in Sources */,
+				9C8B3B971844ECD100C70EE7 /* RTAppDelegate.m in Sources */,
+				9C8B3BA01844ECD100C70EE7 /* RTViewController.m in Sources */,
+				9C8B3B931844ECD100C70EE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8B3BA31844ECD100C70EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8B3BB51844ECD100C70EE7 /* RTBadgeItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C8B3BAD1844ECD100C70EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8B3B821844ECD100C70EE7 /* RTBadgeItem */;
+			targetProxy = 9C8B3BAC1844ECD100C70EE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C8B3B8F1844ECD100C70EE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8B3B901844ECD100C70EE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C8B3B981844ECD100C70EE7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8B3B991844ECD100C70EE7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9C8B3B9B1844ECD100C70EE7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8B3B9C1844ECD100C70EE7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9C8B3BB11844ECD100C70EE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8B3BB21844ECD100C70EE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C8B3BB61844ECD100C70EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8B3BB71844ECD100C70EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8B3BB91844ECD100C70EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTBadgeItem/RTBadgeItem-Prefix.pch";
+				INFOPLIST_FILE = "RTBadgeItem/RTBadgeItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C8B3BBA1844ECD100C70EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTBadgeItem/RTBadgeItem-Prefix.pch";
+				INFOPLIST_FILE = "RTBadgeItem/RTBadgeItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9C8B3BBC1844ECD100C70EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTBadgeItem.app/RTBadgeItem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTBadgeItem/RTBadgeItem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RTBadgeItemTests/RTBadgeItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9C8B3BBD1844ECD100C70EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTBadgeItem.app/RTBadgeItem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTBadgeItem/RTBadgeItem-Prefix.pch";
+				INFOPLIST_FILE = "RTBadgeItemTests/RTBadgeItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C8B3B7E1844ECD100C70EE7 /* Build configuration list for PBXProject "RTBadgeItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8B3BB61844ECD100C70EE7 /* Debug */,
+				9C8B3BB71844ECD100C70EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8B3BB81844ECD100C70EE7 /* Build configuration list for PBXNativeTarget "RTBadgeItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8B3BB91844ECD100C70EE7 /* Debug */,
+				9C8B3BBA1844ECD100C70EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C8B3BBB1844ECD100C70EE7 /* Build configuration list for PBXNativeTarget "RTBadgeItemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8B3BBC1844ECD100C70EE7 /* Debug */,
+				9C8B3BBD1844ECD100C70EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8B3B7B1844ECD100C70EE7 /* Project object */;
+}
