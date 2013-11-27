@@ -18,5 +18,5 @@ A badge item for navigation bar
 ![screenshot2](https://dl.dropboxusercontent.com/u/46239535/RTBadgeItem/s2.png "screenshot2")
 ![screenshot3](https://dl.dropboxusercontent.com/u/46239535/RTBadgeItem/s3.png "screenshot3")
 
-#Licence
+#License
 `MIT`
