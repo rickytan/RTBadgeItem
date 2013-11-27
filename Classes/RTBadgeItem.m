@@ -168,8 +168,8 @@
     
     [color setFill];
     
-    CGContextAddPath(UIGraphicsGetCurrentContext(), path.CGPath);
-    CGContextFillPath(UIGraphicsGetCurrentContext());
+    [path fill];
+    
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;

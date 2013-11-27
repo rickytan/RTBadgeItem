@@ -34,6 +34,8 @@
     
     [self.leftItem show];
     [self.rightItem show];
+    
+    self.title = @"Home";
 }
 
 - (void)didReceiveMemoryWarning
